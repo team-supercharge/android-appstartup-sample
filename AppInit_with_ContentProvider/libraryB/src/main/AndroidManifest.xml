@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.supercharge.appstart.libraryB">
+
+    <application>
+
+        <provider
+            android:name=".provider.LibraryB_Provider1"
+            android:authorities="io.supercharge.appstart.libraryB.provider.LibraryB_Provider1"
+            android:exported="false"
+            android:initOrder="50" />
+
+    </application>
+</manifest>

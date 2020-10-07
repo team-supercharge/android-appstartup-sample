@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.supercharge.appstart.libraryA">
+
+    <application>
+
+        <provider
+            android:name=".provider.LibraryA_Provider1"
+            android:authorities="io.supercharge.appstart.libraryA.provider.LibraryA_Provider1"
+            android:exported="false"
+            android:initOrder="70" />
+
+        <provider
+            android:name=".provider.LibraryA_Provider2"
+            android:authorities="io.supercharge.appstart.libraryA.provider.LibraryA_Provider2"
+            android:exported="false"
+            android:initOrder="60" />
+
+    </application>
+</manifest>

@@ -1,0 +1,4 @@
+include ':libraryA'
+include ':libraryB'
+include ':app'
+rootProject.name='AppInit'

@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.supercharge.appstartandhilt.libraryB">
+
+    <application>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+
+            <meta-data
+                android:name="io.supercharge.appstartandhilt.libraryB.provider.ClassB_1"
+                android:value="androidx.startup" />
+
+<!--            <meta-data-->
+<!--                android:name="io.supercharge.appstartandhilt.libraryB.proviuder.ClassB_2"-->
+<!--                android:value="androidx.startup" />-->
+
+<!--            <meta-data-->
+<!--                android:name="io.supercharge.appstartandhilt.libraryB.proviuder.ClassB_3"-->
+<!--                android:value="androidx.startup" />-->
+
+        </provider>
+    </application>
+</manifest>
